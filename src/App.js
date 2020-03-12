@@ -109,7 +109,9 @@ calculateFaceLocation = (data) => {
       this.setState({imageUrl: this.state.input});
     
     /*predict get : Clarifai model we whant to use  and  the url of the image (input) */
-      fetch('http://localhost:3000/imageUrl', {
+    //'http://localhost:3000/imageUrl'
+      fetch('https://shielded-badlands-01382.herokuapp.com/imageUrl', {
+        // fetch('http://localhost:3000/imageUrl', {
         method: 'post',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
@@ -120,7 +122,8 @@ calculateFaceLocation = (data) => {
       .then(response=>response.json())
       .then( response=> { 
         if (response) {
-          fetch('http://localhost:3000/image', {
+          // fetch('http://localhost:3000/image', {
+          fetch('https://shielded-badlands-01382.herokuapp.com/image', {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
