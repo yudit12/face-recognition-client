@@ -1,17 +1,22 @@
 # face-recognition
-## what the app ?
+## App features 
 - user can sigin or signup 
-- when sign up you can check if your password is strong enough
-when the user signin
+- when you sign up you can check if your password is strong enough
+
+when you signin
 - you can  enter a url of image and the image with the face detection appears
 - the application will count how many face detection you made
 
 url's example:
+
 many faces:
+
 https://samples.clarifai.com/face-det.jpg
 
 one  face:
+
 https://scstylecaster.files.wordpress.com/2016/12/model-curly-hair-nose-ring.jpg
+
 https://i2-prod.mirror.co.uk/incoming/article14334083.ece/ALTERNATES/s615/3_Beautiful-girl-with-a-gentle-smile.jpg
 
 
