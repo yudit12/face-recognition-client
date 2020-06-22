@@ -164,7 +164,7 @@ class ImageFaceDetection extends React.Component {
     // {console.log(this.state.faces_array)}
     return(
         <div>
-         {console.log(this.state.user)}
+         
             <Rank name={this.state.user.name} entries={this.state.user.entries}/>
             <ImageLinkForm input_error={input_error}  onInputChange={ this.onInputChange} onButtonSubmit={this.onButtonSubmit}/>
             <FaceRecognition box={faces_array} imageUrl={imageUrl}/>
