@@ -1,6 +1,6 @@
 {
   "homepage": "https://yudit12.github.io/face-recognition-client",
-  "name": "my_websit_client",
+  "name": "face-recognition-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
