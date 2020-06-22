@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/my_websit_client/static/css/main.eecea29c.chunk.css",
-    "main.js": "/my_websit_client/static/js/main.5798bfca.chunk.js",
-    "main.js.map": "/my_websit_client/static/js/main.5798bfca.chunk.js.map",
-    "runtime-main.js": "/my_websit_client/static/js/runtime-main.8ec9892a.js",
-    "runtime-main.js.map": "/my_websit_client/static/js/runtime-main.8ec9892a.js.map",
-    "static/css/2.3c03f26f.chunk.css": "/my_websit_client/static/css/2.3c03f26f.chunk.css",
-    "static/js/2.dd9fbfc6.chunk.js": "/my_websit_client/static/js/2.dd9fbfc6.chunk.js",
-    "static/js/2.dd9fbfc6.chunk.js.map": "/my_websit_client/static/js/2.dd9fbfc6.chunk.js.map",
-    "index.html": "/my_websit_client/index.html",
-    "precache-manifest.9f6b3273d539d3268f58f7d8820b59be.js": "/my_websit_client/precache-manifest.9f6b3273d539d3268f58f7d8820b59be.js",
-    "service-worker.js": "/my_websit_client/service-worker.js",
-    "static/css/2.3c03f26f.chunk.css.map": "/my_websit_client/static/css/2.3c03f26f.chunk.css.map",
-    "static/css/main.eecea29c.chunk.css.map": "/my_websit_client/static/css/main.eecea29c.chunk.css.map",
-    "static/js/2.dd9fbfc6.chunk.js.LICENSE.txt": "/my_websit_client/static/js/2.dd9fbfc6.chunk.js.LICENSE.txt",
-    "static/media/brain.png": "/my_websit_client/static/media/brain.f7fd504d.png",
-    "static/media/test2.mp4": "/my_websit_client/static/media/test2.584cb17b.mp4"
+    "main.css": "/face-recognition-client/static/css/main.eecea29c.chunk.css",
+    "main.js": "/face-recognition-client/static/js/main.5150d7c3.chunk.js",
+    "main.js.map": "/face-recognition-client/static/js/main.5150d7c3.chunk.js.map",
+    "runtime-main.js": "/face-recognition-client/static/js/runtime-main.aeb21278.js",
+    "runtime-main.js.map": "/face-recognition-client/static/js/runtime-main.aeb21278.js.map",
+    "static/css/2.3c03f26f.chunk.css": "/face-recognition-client/static/css/2.3c03f26f.chunk.css",
+    "static/js/2.c573f7fd.chunk.js": "/face-recognition-client/static/js/2.c573f7fd.chunk.js",
+    "static/js/2.c573f7fd.chunk.js.map": "/face-recognition-client/static/js/2.c573f7fd.chunk.js.map",
+    "index.html": "/face-recognition-client/index.html",
+    "precache-manifest.700e74ff43d9cb44595d38bc5c44dfc5.js": "/face-recognition-client/precache-manifest.700e74ff43d9cb44595d38bc5c44dfc5.js",
+    "service-worker.js": "/face-recognition-client/service-worker.js",
+    "static/css/2.3c03f26f.chunk.css.map": "/face-recognition-client/static/css/2.3c03f26f.chunk.css.map",
+    "static/css/main.eecea29c.chunk.css.map": "/face-recognition-client/static/css/main.eecea29c.chunk.css.map",
+    "static/js/2.c573f7fd.chunk.js.LICENSE.txt": "/face-recognition-client/static/js/2.c573f7fd.chunk.js.LICENSE.txt",
+    "static/media/brain.png": "/face-recognition-client/static/media/brain.f7fd504d.png",
+    "static/media/test2.mp4": "/face-recognition-client/static/media/test2.584cb17b.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.8ec9892a.js",
+    "static/js/runtime-main.aeb21278.js",
     "static/css/2.3c03f26f.chunk.css",
-    "static/js/2.dd9fbfc6.chunk.js",
+    "static/js/2.c573f7fd.chunk.js",
     "static/css/main.eecea29c.chunk.css",
-    "static/js/main.5798bfca.chunk.js"
+    "static/js/main.5150d7c3.chunk.js"
   ]
 }
