@@ -1,8 +1,9 @@
 # face-recognition
-## what the app ?
+## App features 
 - user can sigin or signup 
-- when sign up you can check if your password is strong enough
-when the user signin
+- when you sign up you can check if your password is strong enough
+
+when you signin
 - you can  enter a url of image and the image with the face detection appears
 - the application will count how many face detection you made
 
