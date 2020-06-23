@@ -35,7 +35,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "proxy": "http://127.0.0.1:5000/",
+  "proxy": "https://damp-eyrie-36523.herokuapp.com/",
   "browserslist": {
     "production": [
       ">0.2%",

@@ -11,7 +11,7 @@ const Signin = ({onRouteChange,loadUser}) => (
     onSubmit={(values, { setSubmitting,setuser}) => {
       setTimeout(() => {
         // console.log(onRouteChange)
-        fetch('/sginin', {
+        fetch('/api/sginin', {
           method: 'post',
           headers: {'Content-Type': 'application/json'},
           body: JSON.stringify({

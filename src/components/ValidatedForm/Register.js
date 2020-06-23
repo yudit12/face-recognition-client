@@ -10,7 +10,7 @@ const Register = ({onRouteChange,loadUser}) => (
     onSubmit={(values, {setuser, setSubmitting}) => {
       setTimeout(() => {
         // console.log(onRouteChange)
-        fetch('/register', {
+        fetch('/api/register', {
           method: 'post',
           headers: {'Content-Type': 'application/json'},
           body: JSON.stringify({

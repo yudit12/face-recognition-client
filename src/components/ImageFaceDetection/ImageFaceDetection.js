@@ -129,7 +129,7 @@ class ImageFaceDetection extends React.Component {
         .then( response=>{
           if (response){
             // send to server 
-            fetch('/image',{
+            fetch('/api/image',{
               method: 'put',
               headers: {'Content-Type': 'application/json'},
               body: JSON.stringify({
