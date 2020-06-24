@@ -11,7 +11,7 @@ const Signin = ({onRouteChange,loadUser}) => (
     onSubmit={(values, { setSubmitting,setuser}) => {
       setTimeout(() => {
         // console.log(onRouteChange)
-        fetch('/api/sginin', {
+        fetch('https://cors-anywhere.herokuapp.com/https://server-image-face-detection.herokuapp.com/api/sginin', {
           method: 'post',
           headers: {'Content-Type': 'application/json'},
           body: JSON.stringify({

@@ -10,7 +10,7 @@ const Register = ({onRouteChange,loadUser}) => (
     onSubmit={(values, {setuser, setSubmitting}) => {
       setTimeout(() => {
         // console.log(onRouteChange)
-        fetch('/api/register', {
+        fetch('https://cors-anywhere.herokuapp.com/https://server-image-face-detection.herokuapp.com/api/register', {
           method: 'post',
           headers: {'Content-Type': 'application/json'},
           body: JSON.stringify({

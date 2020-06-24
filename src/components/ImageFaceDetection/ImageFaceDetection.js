@@ -129,7 +129,7 @@ class ImageFaceDetection extends React.Component {
         .then( response=>{
           if (response){
             // send to server 
-            fetch('/api/image',{
+            fetch('https://cors-anywhere.herokuapp.com/https://server-image-face-detection.herokuapp.com/api/image',{
               method: 'put',
               headers: {'Content-Type': 'application/json'},
               body: JSON.stringify({

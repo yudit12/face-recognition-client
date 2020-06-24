@@ -16,14 +16,14 @@ class PasswordChecker extends React.Component  {
   /*triggered every time user enter input*/
   onInputChange = (event) => {
     this.setState({inserted_password: event.target.value});
-    console.log( event.target.value)/* print the entred input */
+    // console.log( event.target.value)/* print the entred input */
     // console.log(this.state.input)
   }
   
   onPasswordSubmit = () => {
-    console.log('click');
+    // console.log('click');
     //  this.props.onRouteChange('passwordChecker')
-    fetch('/password_checker', {
+    fetch('https://cors-anywhere.herokuapp.com/https://server-image-face-detection.herokuapp.com/password_checker', {
       method: 'post',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
@@ -34,7 +34,7 @@ class PasswordChecker extends React.Component  {
     .then(response => response.json())
     // .then(response => response.text())
     .then(result=>{
-      console.log(result)
+      // console.log(result)
       this.setState({output:result})
 
     })

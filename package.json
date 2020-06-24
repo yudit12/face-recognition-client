@@ -8,6 +8,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "clarifai": "^2.9.1",
+    "cors": "^2.8.5",
     "email-validator": "^2.0.4",
     "face-api.js": "^0.22.2",
     "formik": "^2.1.4",
@@ -35,7 +36,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "proxy": "https://damp-eyrie-36523.herokuapp.com/",
+  "proxy": "https://cors-anywhere.herokuapp.com/https://server-image-face-detection.herokuapp.com/",
   "browserslist": {
     "production": [
       ">0.2%",
