@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/face-recognition-client/static/css/main.eecea29c.chunk.css",
-    "main.js": "/face-recognition-client/static/js/main.9e6afcec.chunk.js",
-    "main.js.map": "/face-recognition-client/static/js/main.9e6afcec.chunk.js.map",
+    "main.css": "/face-recognition-client/static/css/main.73a10a93.chunk.css",
+    "main.js": "/face-recognition-client/static/js/main.aa6b1a8f.chunk.js",
+    "main.js.map": "/face-recognition-client/static/js/main.aa6b1a8f.chunk.js.map",
     "runtime-main.js": "/face-recognition-client/static/js/runtime-main.aeb21278.js",
     "runtime-main.js.map": "/face-recognition-client/static/js/runtime-main.aeb21278.js.map",
     "static/css/2.3c03f26f.chunk.css": "/face-recognition-client/static/css/2.3c03f26f.chunk.css",
     "static/js/2.c573f7fd.chunk.js": "/face-recognition-client/static/js/2.c573f7fd.chunk.js",
     "static/js/2.c573f7fd.chunk.js.map": "/face-recognition-client/static/js/2.c573f7fd.chunk.js.map",
     "index.html": "/face-recognition-client/index.html",
-    "precache-manifest.124b3958ed35d58921abbe764971d240.js": "/face-recognition-client/precache-manifest.124b3958ed35d58921abbe764971d240.js",
+    "precache-manifest.40d91e7e2e7ba879281ef36485d2c7d3.js": "/face-recognition-client/precache-manifest.40d91e7e2e7ba879281ef36485d2c7d3.js",
     "service-worker.js": "/face-recognition-client/service-worker.js",
     "static/css/2.3c03f26f.chunk.css.map": "/face-recognition-client/static/css/2.3c03f26f.chunk.css.map",
-    "static/css/main.eecea29c.chunk.css.map": "/face-recognition-client/static/css/main.eecea29c.chunk.css.map",
+    "static/css/main.73a10a93.chunk.css.map": "/face-recognition-client/static/css/main.73a10a93.chunk.css.map",
     "static/js/2.c573f7fd.chunk.js.LICENSE.txt": "/face-recognition-client/static/js/2.c573f7fd.chunk.js.LICENSE.txt",
     "static/media/brain.png": "/face-recognition-client/static/media/brain.f7fd504d.png",
     "static/media/test2.mp4": "/face-recognition-client/static/media/test2.584cb17b.mp4"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.aeb21278.js",
     "static/css/2.3c03f26f.chunk.css",
     "static/js/2.c573f7fd.chunk.js",
-    "static/css/main.eecea29c.chunk.css",
-    "static/js/main.9e6afcec.chunk.js"
+    "static/css/main.73a10a93.chunk.css",
+    "static/js/main.aa6b1a8f.chunk.js"
   ]
 }
