@@ -12,13 +12,13 @@ const ImageLinkForm = ({input_error,onInputChange,onButtonSubmit}) => {
       <p className='f3'>
           {'This Brain will detect the face in the picture . Try it(; '}  
       </p>
-      <div className='center'>
-        <div className='form1 center pa4 br3 shadow-5'>
+      <div>
+      <div className='form1 center pa4 br3 shadow-5'>
+        {/* <div className='form center pa4 br3 shadow-5 '> */}
           <input className='f4 pa2 w-70 center' type='tex'
             onChange={onInputChange}
             />
-           
-            <button className='w-30 grow f4 link ph3 pv2 dib white bg-light-purple'
+            <button className='w-30 center grow f4 link ph3 pv2 dib white bg-light-purple'
             onClick={onButtonSubmit}
             >
             Detect</button>

@@ -7,9 +7,9 @@ import Register from './components/ValidatedForm/Register.js';
 import PasswordChecker from './components/PasswordChecker/PasswordChecker.js';
 import ImageFaceDetection from './components/ImageFaceDetection/ImageFaceDetection.js'
 // import Camera_display from './components/VideoPlayer/Camera_display.js';
+import VideoInput from './components/VideoFaceDetection/VideoInput.js';
 
-
-import VideoPlayer from './components/VideoPlayer/VideoPlayer.js';
+// import VideoPlayer from './components/VideoPlayer/VideoPlayer.js';
 
 
 import './App.css';
@@ -101,11 +101,13 @@ class App extends React.Component  {
         <Particles className='particles'params={particlesOptions}/>
         <Navigation onRouteChange={this.onRouteChange} isSignedIn={isSignedIn}/>
         {/* <Camera_display/> */}
+        {/* {<VideoInput/>} */}
 
         {route ==='home'
           ? <div>
               <Logo/>
-              <VideoPlayer/>
+              {/* <VideoPlayer/> */}
+              <ImageFaceDetection  user= {this.state.user}/>
               
               
           </div>
@@ -121,14 +123,19 @@ class App extends React.Component  {
            route==='passwordChecker'
            ? <PasswordChecker/>
             :(
-              route=== 'signin'
-                ? <div>
-                  <Signin onRouteChange={this.onRouteChange} loadUser={this.loadUser} />
-                  </div>
-                :( route=== 'signout'
-                ? <Signin onRouteChange={this.onRouteChange} loadUser={this.loadUser}/>
-                : <Register  onRouteChange={this.onRouteChange }loadUser={this.loadUser}/> 
-                )  
+              route==='videofacedetection'
+              // ? <ImageFaceDetection user= {this.state.user}/>
+              ?<VideoInput/>
+                :(
+                route=== 'signin'
+                  ? <div>
+                    <Signin onRouteChange={this.onRouteChange} loadUser={this.loadUser} />
+                    </div>
+                  :( route=== 'signout'
+                  ? <Signin onRouteChange={this.onRouteChange} loadUser={this.loadUser}/>
+                  : <Register  onRouteChange={this.onRouteChange }loadUser={this.loadUser}/> 
+                  )  
+                )
               )
             )
           )

@@ -6,8 +6,9 @@ const Navigation = ({onRouteChange,isSignedIn}) => {
         if (isSignedIn){
             return(
                 <nav style={{display: 'flex', justifyContent: 'flex-end'}} >
-                    <p onClick={()=>onRouteChange('signout')} className='f4 link dim black underline pa3 pointer' >Sign Out</p>
-                    <p onClick={()=>onRouteChange('imagefacedetection')} className='f4 link dim black underline pa3 pointer' >Face Detection</p>
+                    <p onClick={()=>onRouteChange('imagefacedetection')} className='f5 link dim black underline pa3 pointer' >Image Face Detection</p>
+                    <p onClick={()=>onRouteChange('videofacedetection')} className='f5 link dim black underline pa3 pointer' > Video Face Detection</p>
+                    <p onClick={()=>onRouteChange('signout')} className='f5 link dim black underline pa3 pointer' >Sign Out</p>
                 </nav>
                 );
         }
