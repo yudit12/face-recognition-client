@@ -8,6 +8,8 @@ export async function loadModels() {
   await faceapi.loadFaceRecognitionModel(MODEL_URL);
   await faceapi.loadFaceExpressionModel(MODEL_URL);
 
+ 
+
 }
 
 export async function getFullFaceDescription(blob, inputSize = 512) {
@@ -22,7 +24,7 @@ export async function getFullFaceDescription(blob, inputSize = 512) {
 
   // fetch image to api
   let img = await faceapi.fetchImage(blob);
-
+// const video = document.getElementById("video");
   // detect all faces and generate full description from image
   // including landmark and descriptor of each face
   let fullDesc = await faceapi
@@ -34,24 +36,24 @@ export async function getFullFaceDescription(blob, inputSize = 512) {
   return fullDesc;
 }
 
-const maxDescriptorDistance = 0.5;
-export async function createMatcher(faceProfile) {
-  // Create labeled descriptors of member from profile
-  let members = Object.keys(faceProfile);
-  let labeledDescriptors = members.map(
-    member =>
-      new faceapi.LabeledFaceDescriptors(
-        faceProfile[member].name,
-        faceProfile[member].descriptors.map(
-          descriptor => new Float32Array(descriptor)
-        )
-      )
-  );
+// const maxDescriptorDistance = 0.5;
+// export async function createMatcher(faceProfile) {
+//   // Create labeled descriptors of member from profile
+//   let members = Object.keys(faceProfile);
+//   let labeledDescriptors = members.map(
+//     member =>
+//       new faceapi.LabeledFaceDescriptors(
+//         faceProfile[member].name,
+//         faceProfile[member].descriptors.map(
+//           descriptor => new Float32Array(descriptor)
+//         )
+//       )
+//   );
 
-  // Create face matcher (maximum descriptor distance is 0.5)
-  let faceMatcher = new faceapi.FaceMatcher(
-    labeledDescriptors,
-    maxDescriptorDistance
-  );
-  return faceMatcher;
-}
+//   // Create face matcher (maximum descriptor distance is 0.5)
+//   let faceMatcher = new faceapi.FaceMatcher(
+//     labeledDescriptors,
+//     maxDescriptorDistance
+//   );
+//   return faceMatcher;
+// }

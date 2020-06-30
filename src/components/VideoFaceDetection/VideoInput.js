@@ -32,11 +32,12 @@ class VideoInput extends Component {
       facingMode: null
     };
   }
-
-  componentDidMount  = async () => {
+//componentDidMount
+componentDidMount  = async () => {
     await loadModels();
     // this.setState({ faceMatcher: await createMatcher(JSON_PROFILE) });
     this.setInputDevice();
+    
   };
 
   setInputDevice = () => {
@@ -151,7 +152,7 @@ class VideoInput extends Component {
     return (
       <div className='VideoPlayer'>
         <p className='white f3'>
-            {`Hello dear ${this.state.user.name}!`}
+            {`Hello Dear ${this.state.user.name}!`}
             
             {/* {'*please wait couple second for the camera to focuses on '} */}
         </p>
@@ -159,7 +160,7 @@ class VideoInput extends Component {
           {`enable your camera and it will detect your face in live!`}
         </p>
         <p className='white f5'>
-            {'*please wait a couple seconds for the camera to focuses on yor face '} 
+            {'*please wait a couple seconds for the camera to focuses on your face '} 
         </p>
 
         <div className='center'>
