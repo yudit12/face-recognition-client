@@ -17,6 +17,13 @@ class VideoInput extends Component {
     super(props);
     this.webcam = React.createRef();
     this.state = {
+      user:{
+        id: this.props.user.id,
+        name:this.props.user.name,
+        email:this.props.user.email,
+        entries:this.props.user.entries,
+        joined:this.props.user.joined
+      },
       fullDesc: null,
       detections: null,
       descriptors: null,
@@ -143,12 +150,16 @@ class VideoInput extends Component {
 
     return (
       <div className='VideoPlayer'>
-        <p className='f3'>
-            {'enable your camera and it will detect your face in live!'}
+        <p className='white f3'>
+            {`Hello dear ${this.state.user.name}!`}
+            
             {/* {'*please wait couple second for the camera to focuses on '} */}
         </p>
-        <p className='f5'>
-            {'*please wait couple seconds for the camera to focuses on '} 
+        <p className='white f3'>
+          {`enable your camera and it will detect your face in live!`}
+        </p>
+        <p className='white f5'>
+            {'*please wait a couple seconds for the camera to focuses on yor face '} 
         </p>
 
         <div className='center'>

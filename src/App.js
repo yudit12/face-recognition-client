@@ -125,7 +125,7 @@ class App extends React.Component  {
             :(
               route==='videofacedetection'
               // ? <ImageFaceDetection user= {this.state.user}/>
-              ?<VideoInput/>
+              ?<VideoInput user= {this.state.user}/>
                 :(
                 route=== 'signin'
                   ? <div>
