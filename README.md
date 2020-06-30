@@ -15,13 +15,19 @@ you can do:
 -the application will count how many face detection you made( it count the number of images you entered )
 
 
- example for url's:
+### for test you can enter :
 
--many faces:
+-email : d@d.com
+
+-password:123
+
+ -example for image urls:
+
+#### many faces:
 
 https://samples.clarifai.com/face-det.jpg
 
--one face:
+#### one face:
 
 https://scstylecaster.files.wordpress.com/2016/12/model-curly-hair-nose-ring.jpg
 
