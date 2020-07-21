@@ -1,4 +1,8 @@
 # face-recognition
+## links
+[client app](https://yudit12.github.io/face-recognition-client/) 
+
+[server code](https://github.com/yudit12/face-recognition-server) 
 ## App features 
 - user can sigin or signup 
 - when you sign up you can check if your password is strong enough 
